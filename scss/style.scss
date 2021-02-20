@@ -328,5 +328,12 @@ footer{
 .ft-icon{
     a{
         margin: 10px;
+        img{
+            &:hover{
+                background-color: black;
+                border-radius: 50%;
+            }
+        }
+        
     }
 }
