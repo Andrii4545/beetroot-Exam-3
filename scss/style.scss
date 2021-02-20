@@ -1,0 +1,332 @@
+
+
+*{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 40px;
+    .link{
+        display: flex;
+        align-items: center;
+        a{
+            text-decoration: none;
+            margin-right: 30px;
+            color: white;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
+.block1{
+    height: 1070px;
+    position: relative;
+    background-image: url(../img/DeathtoStock_Wired7.png);
+    .header-text{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+    }
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+    p{
+        font-style: italic;
+        color: white;
+        font-size: 19px;
+    }
+}
+.about{
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    .aboutRight{
+        width: 380px;
+        height: 555px;
+        background-image: url(../img/DeathtoStock_Wired8.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            margin: 70px;
+        }
+        p{
+            color: white;
+            font-weight: 700;
+        }
+        
+    }
+    .aboutLeft{
+        max-width: 620px;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            margin-bottom: 30px;
+        }
+    
+        span{
+            font-weight: bold;
+        }
+    }
+}
+.my-btn{
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    font-style: italic;
+}
+.services{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    .servicesLeft{
+        width: 760px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h3{
+        margin: 30px;
+    }
+    .box{
+        width: 380px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(235,235,235);
+        &:nth-last-child(1) {
+            background-color: rgb(219, 219, 219);
+        }
+        &:nth-child(1){
+            background-color:rgb(219, 219, 219);
+        }
+        p{
+            width: 190px;
+            text-align: center;
+        }
+    }
+    .servicesRight{
+        width: 410px;
+        height: 800px;
+        background-image: url(../img/unsplash_523ae1f5502d6_1.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .servicesTop{
+            text-align: center;
+            padding-bottom: 120px;
+            h3{
+                color: white;
+            }
+        }
+        p{
+            padding-bottom: 120px;
+            width: 330px;
+            text-align: center;
+            color: white;
+        }
+    }
+}
+.works{
+    height: 1000px;
+    background-image: url(../img/DeathtoStock_Wired3.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .worksHead{
+        text-align: center;
+        h3{
+            color: white;
+        }
+        img{
+            margin-bottom: 30px;
+        }
+    }
+    .multiple-items{
+        width: 800px;
+        margin: 0 auto;
+        .cadrs{
+            width: 100%;
+            .card-body{
+                
+                img{
+                   width: 800px;                  
+                }
+            }
+        }
+    }
+}
+.team{
+    background-color: rgb(235,235,235);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.headTeam{
+    text-align: center;
+    img{
+        margin: 20px;
+    }
+    h3{
+        color: rgb(159, 154, 207);
+    }
+}
+.card-body-team{
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin: 30px;
+}
+.teams{
+    width: 1300px;
+    margin: 0 50px 0 50px;
+}
+.card-text{
+    width: 100%;
+    text-align: center;
+    height: 285px;
+    background-color: white;
+    position: relative;
+    h3{
+        margin-bottom: 30px;
+        color: rgb(159, 154, 207);
+    }
+    p{
+        font-style: italic;
+    }
+    .text-position{
+        position: absolute;
+        top: 55%;
+        left: 35%;
+    }
+}
+.card-head{
+    position: absolute;
+    top: 3px;
+    z-index: 1;
+}
+.card-footer{
+    background-color: rgb(159, 154, 207);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        &:hover{
+            background-color: black;
+            border-radius: 50%;
+        }
+    }
+}
+.card-box{
+    width: 100%;
+}
+.cardsTeam{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacts{
+    height: 900px;
+    position: relative;
+    
+}
+.bg-form{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(159, 154, 207,0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bg-head{
+    text-align: center;
+    img{
+        margin-bottom: 20px;
+    }
+}
+.form-ready{
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input{
+            width: 420px;
+            height: 65px;
+            background-color: rgba(159, 154, 207,0.3);
+            &::placeholder{
+                color: white;
+                font-style: italic;
+                font-size: 20px;
+            }
+            &:nth-child(1){
+                margin-right: 15px;
+            }
+        }
+        #btn-sub{
+            width: 290px;
+            height: 60px;
+            color: white;
+            background-color: rgb(159, 154, 207);
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(133, 124, 209);
+            }
+        }
+        textarea{
+            width: 860px;
+            height: 200px;
+            margin-top: 20px;
+            margin-bottom: 60px;
+            background-color: rgba(159, 154, 207,0.3);
+        }
+    }
+}
+footer{
+    height: 180px;
+    background-color: rgb(159, 154, 207);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ft-text{
+    p{
+        color: white;
+    }
+}
+.ft-icon{
+    a{
+        margin: 10px;
+    }
+}

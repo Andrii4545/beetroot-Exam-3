@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header {
+  max-width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.header .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .link a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: white;
+}
+
+.header .link a:hover {
+  color: black;
+}
+
+.block1 {
+  height: 1070px;
+  position: relative;
+  background-image: url(../img/DeathtoStock_Wired7.png);
+}
+
+.block1 .header-text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.block1 h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.block1 p {
+  font-style: italic;
+  color: white;
+  font-size: 19px;
+}
+
+.about {
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about .aboutRight {
+  width: 380px;
+  height: 555px;
+  background-image: url(../img/DeathtoStock_Wired8.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .aboutRight img {
+  margin: 70px;
+}
+
+.about .aboutRight p {
+  color: white;
+  font-weight: 700;
+}
+
+.about .aboutLeft {
+  max-width: 620px;
+  height: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .aboutLeft p {
+  margin-bottom: 30px;
+}
+
+.about .aboutLeft span {
+  font-weight: bold;
+}
+
+.my-btn {
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  font-style: italic;
+}
+
+.services {
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services .servicesLeft {
+  width: 760px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.services h3 {
+  margin: 30px;
+}
+
+.services .box {
+  width: 380px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ebebeb;
+}
+
+.services .box:nth-last-child(1) {
+  background-color: #dbdbdb;
+}
+
+.services .box:nth-child(1) {
+  background-color: #dbdbdb;
+}
+
+.services .box p {
+  width: 190px;
+  text-align: center;
+}
+
+.services .servicesRight {
+  width: 410px;
+  height: 800px;
+  background-image: url(../img/unsplash_523ae1f5502d6_1.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .servicesRight .servicesTop {
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.services .servicesRight .servicesTop h3 {
+  color: white;
+}
+
+.services .servicesRight p {
+  padding-bottom: 120px;
+  width: 330px;
+  text-align: center;
+  color: white;
+}
+
+.works {
+  height: 1000px;
+  background-image: url(../img/DeathtoStock_Wired3.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.works .worksHead {
+  text-align: center;
+}
+
+.works .worksHead h3 {
+  color: white;
+}
+
+.works .worksHead img {
+  margin-bottom: 30px;
+}
+
+.works .multiple-items {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.works .multiple-items .cadrs {
+  width: 100%;
+}
+
+.works .multiple-items .cadrs .card-body img {
+  width: 800px;
+}
+
+.team {
+  background-color: #ebebeb;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.headTeam {
+  text-align: center;
+}
+
+.headTeam img {
+  margin: 20px;
+}
+
+.headTeam h3 {
+  color: #9f9acf;
+}
+
+.card-body-team {
+  height: 600px;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 30px;
+}
+
+.teams {
+  width: 1300px;
+  margin: 0 50px 0 50px;
+}
+
+.card-text {
+  width: 100%;
+  text-align: center;
+  height: 285px;
+  background-color: white;
+  position: relative;
+}
+
+.card-text h3 {
+  margin-bottom: 30px;
+  color: #9f9acf;
+}
+
+.card-text p {
+  font-style: italic;
+}
+
+.card-text .text-position {
+  position: absolute;
+  top: 55%;
+  left: 35%;
+}
+
+.card-head {
+  position: absolute;
+  top: 3px;
+  z-index: 1;
+}
+
+.card-footer {
+  background-color: #9f9acf;
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-footer img:hover {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.card-box {
+  width: 100%;
+}
+
+.cardsTeam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts {
+  height: 900px;
+  position: relative;
+}
+
+.bg-form {
+  width: 100%;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: rgba(159, 154, 207, 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bg-head {
+  text-align: center;
+}
+
+.bg-head img {
+  margin-bottom: 20px;
+}
+
+.form-ready form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-ready form input {
+  width: 420px;
+  height: 65px;
+  background-color: rgba(159, 154, 207, 0.3);
+}
+
+.form-ready form input::-webkit-input-placeholder {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.form-ready form input:-ms-input-placeholder {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.form-ready form input::-ms-input-placeholder {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.form-ready form input::placeholder {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.form-ready form input:nth-child(1) {
+  margin-right: 15px;
+}
+
+.form-ready form #btn-sub {
+  width: 290px;
+  height: 60px;
+  color: white;
+  background-color: #9f9acf;
+  cursor: pointer;
+}
+
+.form-ready form #btn-sub:hover {
+  background-color: #857cd1;
+}
+
+.form-ready form textarea {
+  width: 860px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  background-color: rgba(159, 154, 207, 0.3);
+}
+
+footer {
+  height: 180px;
+  background-color: #9f9acf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ft-text p {
+  color: white;
+}
+
+.ft-icon a {
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */
